@@ -18,7 +18,10 @@ require 'html/top.php';
     <meta charset="utf-8">
     <title>Masterarms GreenieBoard</title>
     <link rel="stylesheet" type="text/css" href="style/indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="style/headerStyle.css">
+    <link rel="stylesheet" type="text/css" href="style/boardStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="media/icons/planeIcon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./js/indexScript.js"></script>
 
@@ -40,7 +43,7 @@ require 'html/top.php';
   </head>
   <body>
     <noscript id="noscript">Sorry, your browser does not support JavaScript!</noscript>
-    
+
     <div id="indexBackgroundImage"></div>
 
 
