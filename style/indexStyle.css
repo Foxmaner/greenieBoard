@@ -7,7 +7,14 @@
   border-collapse: collapse;
   float: left;
 }
-
+#indexBackgroundImage{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../media/pictures/background-trap.jpg");
+  z-index: -1;
+  background-size: cover;
+}
 #wrapperLogin{
   display: none;
   position: absolute;
