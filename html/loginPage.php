@@ -1,7 +1,7 @@
 
 
 <div id="loginBackground"></div>
-<div id="wrapperLogin" class="wrapper">
+<div id="wrapperLogin" class="col-s-12 col-12">
 
     <div id="loginTitleIcon"></div>
     <h1 class="title">GreenieBoard</h1>
