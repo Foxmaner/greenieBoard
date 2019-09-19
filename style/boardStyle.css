@@ -1,22 +1,16 @@
-* {
- margin: 0;
+#greenieboard {
+  background-color: rgba(181, 181, 181, 0.6);
+  margin-left: 8.335%;
+  margin-top: 5vh;
+  height: 70vh;
 }
 
-body {
-
-}
-
-#indexBackgroundImage {
-  position: fixed;
+table{
   width: 100%;
-  height: 100vh;
-  background-image: url("../media/pictures/background-trap.jpg");
-  z-index: -1;
-  background-size: cover;
 }
-
-
-
+.tdCallsign{
+  width: 10%;
+}
 
 
 /* For mobile phones: */
