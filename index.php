@@ -40,9 +40,12 @@ require 'html/top.php';
   </head>
   <body>
     <noscript id="noscript">Sorry, your browser does not support JavaScript!</noscript>
-    <button id="toggleLoginBtn">Login</button>
+    
     <div id="indexBackgroundImage"></div>
+
+
       <?php
+      require 'html/header.php';
       require 'html/loginPage.php';
       if (isset($_SESSION["isLoggedIn"])) {
         if ($_SESSION["isLoggedIn"]==true) {

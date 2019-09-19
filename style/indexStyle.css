@@ -7,6 +7,9 @@
   border-collapse: collapse;
   float: left;
 }
+body{
+  width: 100%;
+}
 #indexBackgroundImage{
   position: fixed;
   width: 100%;
@@ -14,6 +17,13 @@
   background-image: url("../media/pictures/background-trap.jpg");
   z-index: -1;
   background-size: cover;
+}
+#indexHeader{
+  width: 100%;
+  background-color: rgba(102, 204, 255, 0.5);
+
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 #wrapperLogin{
   display: none;

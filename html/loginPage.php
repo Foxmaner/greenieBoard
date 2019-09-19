@@ -17,14 +17,14 @@
 
 
       <?php
-      if (isset($_SESSION["error"])) {
+  // code...    if (isset($_SESSION["error"])) {
         // code...
         // code...
 
-        echo "<script> alertify.error('Misslyckat: " . $_SESSION["error"] . "'); </script>";
-        unset($_SESSION["error"]);
-        echo "</p>";
-      }
+    // code...    echo "<script> alertify.error('Misslyckat: " . $_SESSION["error"] . "'); </script>";
+  // code...      unset($_SESSION["error"]);
+  // code...      echo "</p>";
+  // code...    }
        ?>
 
   </div>
