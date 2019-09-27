@@ -1,18 +1,30 @@
 #indexHeader {
   background-color: rgba(102, 204, 255, 0.5);
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
-#wrapperLogin {
-  display: none;
-  position: absolute;
-  background: green;
-  margin-top: 20vh;
-}
+
 
 #headerIcon {
   margin-left: 37.5%;
+  position: relative;
+  top: -2vh;
+}
+
+#toggleLoginBtn{
+  position: relative;
+  top: 4vh;
+  left: 3%;
+  background-color: blue;
+  width: 10%;
+  padding: 1vh;
+  border-radius: 10px 10px 10px 10px
+}
+#toggleLoginBtnText{
+  cursor: default;
+  font-size: 2rem;
+  text-align: center;
 }
 
 /* For mobile phones: */

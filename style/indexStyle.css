@@ -14,7 +14,39 @@ body {
   z-index: -1;
   background-size: cover;
 }
+#loginTitle{
+  text-align: center;
+}
 
+#inputPassword{
+  border-bottom: 2px solid rgb(216,201,180);
+  background-color: transparent;
+
+
+  height: 2rem;
+  font-size: 2rem;
+
+  background-image: url("../../media/icons/lockIcon.png");
+  background-position:0px 0.2rem;
+  background-repeat: no-repeat;
+  background-size: 1.6rem;
+  padding-left: 40px;
+
+}
+
+#submitLogin{
+  background-color: rgb(96,116,29);
+  height: 3rem;
+  font-size: 2rem;
+  margin-top: 3vh;
+}
+
+#wrapperLogin {
+  display: none;
+  position: absolute;
+  background-color: rgba(158, 156, 169, 0.66);
+  margin-top: 20vh;
+}
 
 
 
@@ -74,6 +106,8 @@ body {
   .col-s-12 {
     width: 100%;
   }
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -125,5 +159,11 @@ body {
 
   .col-12 {
     width: 100%;
+  }
+
+  #wrapperLogin{
+    margin-left: 37.5%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
   }
 }

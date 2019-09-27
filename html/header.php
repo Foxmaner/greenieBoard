@@ -6,10 +6,10 @@
     if ($_SESSION["isLoggedIn"]==true) {
 
     }else{
-      echo "<button id='toggleLoginBtn'>Login</button>";
+      echo "<div id='toggleLoginBtn'> <p id='toggleLoginBtnText'>Login</p> </div>";
     }
   }else{
-    echo "<button id='toggleLoginBtn'>Login</button>";
+    echo "<div id='toggleLoginBtn'> <p id='toggleLoginBtnText'>Login</p> </div>";
   }
   ?>
 

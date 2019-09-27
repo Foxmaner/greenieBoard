@@ -1,10 +1,10 @@
 
 
 <div id="loginBackground"></div>
-<div id="wrapperLogin" class="col-s-12 col-12">
+<div id="wrapperLogin" class="col-s-8 col-3">
 
     <div id="loginTitleIcon"></div>
-    <h1 class="title">GreenieBoard</h1>
+    <h1 id="loginTitle">Login</h1>
 
     <form id="loginForm" method="post" action="">
       <input id="inputPassword" type="password" placeholder="Lösenord" name="passwordData">
