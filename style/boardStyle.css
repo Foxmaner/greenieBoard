@@ -11,6 +11,9 @@ table{
 .tdCallsign{
   width: 10%;
 }
+table, th, td {
+  border: 1px solid black;
+}
 
 
 /* For mobile phones: */
